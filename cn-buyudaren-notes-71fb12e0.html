@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>再次来到捕鱼达人 · 一处安静的角落</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #f9f8f6;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      color: #2d2a27;
+      line-height: 1.7;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .page {
+      max-width: 680px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 4rem;
+      flex: 1;
+    }
+
+    /* 开场 —— 短句 */
+    .opening {
+      margin-bottom: 3rem;
+      border-left: 3px solid #b8a99b;
+      padding-left: 1.2rem;
+    }
+
+    .opening p:first-child {
+      font-size: 1.35rem;
+      font-weight: 450;
+      letter-spacing: 0.02em;
+      color: #3c3732;
+    }
+
+    .opening .meta-note {
+      font-size: 0.9rem;
+      color: #8a7f74;
+      margin-top: 0.3rem;
+    }
+
+    /* 承接段落 */
+    .essay {
+      margin-bottom: 2.8rem;
+    }
+
+    .essay p {
+      margin-bottom: 1.2rem;
+      font-size: 1rem;
+    }
+
+    .essay a {
+      color: #2a5c5e;
+      text-decoration: none;
+      border-bottom: 1px solid #cbd8d6;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .essay a:hover {
+      border-bottom-color: #2a5c5e;
+      color: #1e4345;
+    }
+
+    /* 特点列表 —— 轻卡片 */
+    .features {
+      margin: 2.5rem 0 3rem;
+    }
+
+    .features h2 {
+      font-weight: 500;
+      font-size: 1.2rem;
+      letter-spacing: 0.03em;
+      color: #5f554b;
+      margin-bottom: 1.4rem;
+      border-bottom: 1px solid #e4ddd6;
+      padding-bottom: 0.3rem;
+    }
+
+    .feature-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+    }
+
+    .feature-item {
+      background: #ffffffec;
+      padding: 1.1rem 1.4rem;
+      border-radius: 12px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.02), 0 2px 8px rgba(0,0,0,0.02);
+      transition: box-shadow 0.2s;
+    }
+
+    .feature-item:hover {
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04), 0 6px 16px rgba(0,0,0,0.03);
+    }
+
+    .feature-item strong {
+      display: block;
+      font-weight: 500;
+      font-size: 1.05rem;
+      color: #3b3a36;
+      margin-bottom: 0.25rem;
+    }
+
+    .feature-item span {
+      font-size: 0.95rem;
+      color: #5c544c;
+    }
+
+    /* 温和结尾 */
+    .closing {
+      margin-top: 2.8rem;
+      padding-top: 1.8rem;
+      border-top: 1px solid #e4ddd6;
+    }
+
+    .closing p {
+      font-size: 0.98rem;
+      color: #4e4842;
+      margin-bottom: 1rem;
+    }
+
+    .closing .favor-note {
+      background: #f2efe9;
+      padding: 1rem 1.4rem;
+      border-radius: 24px 8px 24px 8px;
+      font-size: 0.95rem;
+      color: #3c3732;
+    }
+
+    .closing .favor-note a {
+      color: #2a5c5e;
+      text-decoration: none;
+      border-bottom: 1px solid #becac7;
+    }
+
+    .closing .favor-note a:hover {
+      border-bottom-color: #2a5c5e;
+    }
+
+    footer {
+      margin-top: 3.2rem;
+      font-size: 0.8rem;
+      color: #9b9289;
+      text-align: left;
+      border-top: 1px solid #ece6df;
+      padding-top: 1.5rem;
+    }
+
+    footer span {
+      display: block;
+    }
+
+    /* 响应式 */
+    @media (max-width: 480px) {
+      .page {
+        padding: 2rem 1.2rem 3rem;
+      }
+      .opening p:first-child {
+        font-size: 1.2rem;
+      }
+      .feature-item {
+        padding: 1rem 1.1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <!-- 开场短句 -->
+    <div class="opening">
+      <p>又回到这里。水面平静，光标浮动，一切和记忆里一样。</p>
+      <div class="meta-note">—— 再次打开时的第一印象</div>
+    </div>
+
+    <!-- 承接段落：从再次访问、收藏、持续关注的角度展开 -->
+    <div class="essay">
+      <p>
+        许多人在某个下午第一次遇见<a href="https://cn-buyudaren.com">捕鱼达人</a>，后来因为各种原因搁置了。
+        直到某天重新输入那个熟悉的网址，发现界面依旧干净，玩法也没有被花哨的促销覆盖。
+        这种「还在」的感觉，在今天的网络里其实不多见。
+      </p>
+      <p>
+        如果你也曾把它加入过书签，或者只是隐约记得这个名字，那么这次回来或许会发现：
+        它没有刻意追赶潮流，也没有变成你不认识的样子。那些简单的操作、明快的画面节奏，
+        仍然能让人迅速进入状态。对于想要短暂放松又不愿被复杂规则消耗的人来说，
+        这种克制本身就是一种诚意。
+      </p>
+      <p>
+        收藏夹里的链接不会自己消失，但真正值得保留的站点往往需要一点筛选。
+        如果这里是你曾经点过「星标」的地方，那么它值得再次被打开、被留意。
+      </p>
+    </div>
+
+    <!-- 特点列表（轻卡片） -->
+    <div class="features">
+      <h2>几个一直没变的特点</h2>
+      <div class="feature-grid">
+        <div class="feature-item">
+          <strong>直接开始，没有多余门槛</strong>
+          <span>不需要注册、不需要看完教程。打开页面之后，几秒内就能理解基本操作，剩下的交给手感。</span>
+        </div>
+        <div class="feature-item">
+          <strong>节奏由你自己决定</strong>
+          <span>没有强制组队、没有定时任务。想玩几分钟就玩几分钟，随时暂停，随时继续。</span>
+        </div>
+        <div class="feature-item">
+          <strong>画面保持清爽</strong>
+          <span>不会突然弹出大横幅广告，也不会把界面塞满闪烁按钮。视觉重心一直留在水域和鱼群上。</span>
+        </div>
+        <div class="feature-item">
+          <strong>适合作为日常的短暂出口</strong>
+          <span>午休、通勤、等水烧开——这些碎片时间里，它提供一种低负担的专注方式。</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 温和结尾 + 收藏与关注提示 -->
+    <div class="closing">
+      <p>
+        如果你已经有一阵子没打开它了，或许今天就是个不错的契机。
+        浏览器书签栏里那些被折叠起来的名字，偶尔重新点开一个，也是一种小小的整理。
+      </p>
+      <div class="favor-note">
+        💡 如果你觉得以后还会再用，不妨直接收藏这个页面，或者把
+        <a href="https://cn-buyudaren.com">捕鱼达人</a>
+        添加到主屏幕。这样下次想起来的时候，不用再费力搜索。
+      </div>
+    </div>
+
+    <footer>
+      <span>一份安静的记录，关于一个熟悉的地方。</span>
+      <span style="margin-top: 0.2rem;">&middot; 最近更新于 2025</span>
+    </footer>
+
+  </div>
+</body>
+</html>
